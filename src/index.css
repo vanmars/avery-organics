@@ -17,19 +17,28 @@ html {
   align-content: center;
 }
 
-#app-body {
-  /* display: flex;
-  justify-content: space-around; */
-}
-
-#app-schedule {
+#app-schedule, #app-product-list {
   background-color: white;
   margin: 0px -10px;
   padding: 25px 50px;
 }
 
-#app-product-list {
-  /* width: 40%; */
+#app-tagline {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-tagline p {
+  color:white;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#app-footer {
+  height:75vh;
 }
 
 /* Header */
@@ -63,3 +72,21 @@ html {
   font-weight: bolder;
   color: green;
  }
+
+ /* Seasonal Produce */
+ .produce-link {
+   margin-right: 25px;
+ }
+
+ .produce-link:hover {
+  text-decoration: underline;
+}
+
+ .produce-link:nth-of-type(odd) {
+  color: green;
+}
+
+.produce-link:nth-of-type(even) {
+  color: grey;
+}
+
