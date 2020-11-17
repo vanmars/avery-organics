@@ -6,9 +6,17 @@ import ProductList from './ProductList';
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Schedule />
-      <ProductList />
+      <div id="app-header">
+        <Header />
+      </div>
+      <div id="app-body">
+        <div id="app-schedule">
+          <Schedule />
+        </div>
+        <div id="app-product-list">
+          <ProductList />
+        </div>
+      </div>
     </React.Fragment>
     
   );

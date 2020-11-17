@@ -2,7 +2,9 @@ import React from 'react';
 
 function Header(){
   return(
-    <h1>Welcome to Avery's Organics!</h1>
+    <React.Fragment>
+      <h1 id="header-welcome">Avery's Organics</h1>
+    </React.Fragment>
   );
 }
 

@@ -39,6 +39,10 @@ _Connect with me at vamariestewart@gmail.com with ideas to improve this project.
 * NPM
 * Webpack
 
+## Photo Credits
+<span>Photo by <a href="https://unsplash.com/@zoltantasi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zoltan Tasi</a> on <a href="https://unsplash.com/s/photos/farmhouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@the_modern_life_mrs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Heather Ford</a> on <a href="https://unsplash.com/s/photos/farmhouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 ### License
 
 Copyright (c) 2020 **_Vanessa Stewart_**

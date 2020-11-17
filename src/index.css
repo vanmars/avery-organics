@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Body */
+html { 
+  background: url(https://images.unsplash.com/photo-1568587166637-7ad1aef43288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1327&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* https://images.unsplash.com/photo-1531112998639-59af23e7a65e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1537&q=80 */
+
+/* App */
+#app-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
+
+#app-body {
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+#app-schedule {
+  background-color: white;
+  margin: 0px -10px;
+  padding: 25px 50px;
+}
+
+#app-product-list {
+  /* width: 40%; */
+}
+
+/* Header */
+#header-welcome {
+  border: solid white 5px;
+  padding: 30px;
+  color: white;
+  font-size: 100px;
+}
+
+/* Schedule  */
+#schedule-header{
+  font-size: 24px;
+}
+
+#schedule-card-holder{
+ display: flex;
+}
+
+.schedule-card{
+ border: solid grey 2px;
+ padding: 10px;
+ width: 15%;
+}
+
+#day-name {
+  font-size: 20px;
+}
+
+.schedule-card p span{
+  font-weight: bolder;
+  color: green;
+ }

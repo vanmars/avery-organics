@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 function Day(props){
   return(
     <React.Fragment>
-      <h4>{props.name}</h4>
-      <p><b>Farmer's Market:</b> {props.location}</p>
-      <p><b>Hours:</b>  {props.hours}</p>
-      <p><b>Booth:</b>  {props.booth}</p>
+      <h4 id="day-name">{props.name}</h4>
+      <p><span>Farmer's Market:</span><br/> {props.location}</p>
+      <p><span>Hours:</span><br/>  {props.hours}</p>
+      <p><span>Booth:</span><br/>  {props.booth}</p>
     </React.Fragment>
   );
 }
