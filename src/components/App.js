@@ -22,9 +22,9 @@ function App() {
         </div>
       </div>
       <div id="app-footer">
-        <div id="app-footer-bar">
-          <p>Copyright 2020, Avery Organics</p>
-        </div>
+      </div>
+      <div id="app-footer-bar">
+        <p id="app-footer-content">Avery Organics, 2020</p>
       </div>
     </React.Fragment>
     

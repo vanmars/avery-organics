@@ -272,14 +272,18 @@ const availableProduce = [
 function ProductList(){
   return(
     <React.Fragment>
-      <h3>Seasonal Produce</h3>
-      {availableProduce.map((month, index) =>
-         <Month
-         name={month.month}
-         selection={month.selection}
-         key={index}
-       />
-      )}
+      <h3 id="productlist-header">Seasonal Produce</h3>
+      <div id="productlist-cards">
+         {availableProduce.map((month, index) =>
+            <div class="productlist-card">
+               <Month
+               name={month.month}
+               selection={month.selection}
+               key={index}
+               />
+            </div>
+         )}
+      </div>
       </React.Fragment>
   );
 }

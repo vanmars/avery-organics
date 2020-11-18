@@ -38,7 +38,13 @@ html {
 }
 
 #app-footer {
-  height:75vh;
+  height: 75vh;
+}
+
+#app-footer-bar{
+ background-color:rgb(204, 220, 204);
+ padding: 10px 20px;
+ margin: 0px -10px;
 }
 
 /* Header */
@@ -52,14 +58,19 @@ html {
 /* Schedule  */
 #schedule-header{
   font-size: 24px;
+  color: grey;
 }
 
 #schedule-card-holder{
  display: flex;
 }
 
+.schedule-card:nth-of-type(odd){
+  background-color: rgb(204, 220, 204);
+ }
+
 .schedule-card{
- border: solid grey 2px;
+ border: solid grey 1px;
  padding: 10px;
  width: 15%;
 }
@@ -70,7 +81,28 @@ html {
 
 .schedule-card p span{
   font-weight: bolder;
-  color: green;
+  color: grey;
+  font-size: 18px;
+ }
+
+ /* Product List */
+ #productlist-header {
+   font-size: 24px;
+   color: grey;
+ }
+ #productlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .productlist-card {
+   width: 25%;
+ }
+
+ /* Month */
+ #month-header {
+   color: green;
+  font-size: 24px;
  }
 
  /* Seasonal Produce */

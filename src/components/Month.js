@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Month(props) {
   return(
     <React.Fragment>
-      <h4>{props.name}</h4>
+      <h4 id="month-header">{props.name}</h4>
       <ul>
         {props.selection.map((product) =>
           <li>{product}</li>
