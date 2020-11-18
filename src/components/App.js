@@ -24,7 +24,7 @@ function App() {
       <div id="app-footer">
       </div>
       <div id="app-footer-bar">
-        <p id="app-footer-content">Avery Organics, 2020</p>
+        <p id="app-footer-content">Avery's Organics, 2020</p>
       </div>
     </React.Fragment>
     

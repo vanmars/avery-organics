@@ -25,7 +25,7 @@ _This is an exercise for Epicodus to practice working with React components, sta
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+Currently, the ProductList.js file is filler for SeasonalProduce.js, which would allow content to populate dynamically, but the file is not working yet.
 
 ## Support and Contact Details
 

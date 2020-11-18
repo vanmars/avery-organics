@@ -43,8 +43,12 @@ html {
 
 #app-footer-bar{
  background-color:rgb(204, 220, 204);
- padding: 10px 20px;
- margin: 0px -10px;
+ /* padding: 10px 20px; */
+  margin: -10px;
+}
+
+#app-footer-content{
+  padding: 10px 20px;
 }
 
 /* Header */
@@ -63,6 +67,7 @@ html {
 
 #schedule-card-holder{
  display: flex;
+ box-shadow: 10px 10px 8px #888888;
 }
 
 .schedule-card:nth-of-type(odd){
@@ -73,6 +78,7 @@ html {
  border: solid grey 1px;
  padding: 10px;
  width: 15%;
+
 }
 
 #day-name {
@@ -102,7 +108,7 @@ html {
  /* Month */
  #month-header {
    color: green;
-  font-size: 24px;
+  font-size: 20px;
  }
 
  /* Seasonal Produce */
